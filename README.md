@@ -1,7 +1,7 @@
 # colorTrans
   Color transfer from source image to target image using opencv
 
-## Learn open cv from here : https://docs.opencv.org/3.2.0/d9/df8/tutorial_root.html
+## Learn open cv from [openCV documentation](https://docs.opencv.org/3.2.0/d9/df8/tutorial_root.html)
 
 
 ##  TransferColor Module
@@ -10,7 +10,7 @@
    
 ### trans_color function 
   
-  1. Convert the images from the RGB to L * ab * color space
+  1. Convert the images from the RGB to L\*a\*b\* color space
   
   2. Compute color statistics for the source and target images
   
@@ -23,5 +23,17 @@
 ## In order to run this script
   
   1. Open terminal
-  2. Run command in this sequence --> python color.py -s  source.jpg -t target.jpg 
-    (check argparse code)
+  2. Run command in this sequence : 
+  <code>$ python color.py -source source.jpg -target target.jpg</code>
+  
+#### SOURCE IMAGE  
+  ![image](images/source.jpg)
+
+#### TARGET IMAGE
+  ![image](images/target.jpg)
+  
+#### RESULTANT TRANSFER IMAGE  
+  ![image](images/transfer.png)
+  
+  
+  
